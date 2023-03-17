@@ -596,12 +596,12 @@ function getImports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper282 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 156, __wbg_adapter_16);
+    imports.wbg.__wbindgen_closure_wrapper306 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 176, __wbg_adapter_16);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper645 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 281, __wbg_adapter_19);
+    imports.wbg.__wbindgen_closure_wrapper669 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 301, __wbg_adapter_19);
         return addHeapObject(ret);
     };
 
@@ -639,7 +639,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('rhchess_web-946db85b687bd6d6_bg.wasm', import.meta.url);
+        input = new URL('rhchess_web-22473ad42da34a5f_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
